@@ -137,9 +137,8 @@ def generer_reponse_mega(message):
     return reponse
 
 # === INTERFACE STREAMLIT ===
-st.title("IA MÉGA Pro-Bilat III")
-st.markdown("### *1000+ réponses uniques | Contredit TOUT | Jamais répétée*")
-st.markdown("**Tape n'importe quel argument anti-Bilat III → je le démonte en 1 sec.**")
+st.title("IA Bilatérales III")
+st.markdown("Donne moi ton argument contre les bilatérales III*")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
