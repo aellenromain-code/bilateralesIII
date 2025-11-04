@@ -147,7 +147,7 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-if prompt := st.chat_input("Ex: 'Les Bilatérales III c'est... !'"):
+if prompt := st.chat_input("Ex: 'Les Bilatérales III c'est... '"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
