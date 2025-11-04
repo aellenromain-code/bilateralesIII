@@ -143,7 +143,7 @@ def generer_reponse_personnalisee(message, theme):
 
 # === INTERFACE STREAMLIT ===
 st.title("IA Pro-Bilat III – Réponses 100% Personnalisées")
-st.markdown("### *Tape ton doute → *")
+st.markdown("### Tape ton doute → ")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
