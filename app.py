@@ -138,7 +138,7 @@ def generer_reponse_mega(message):
 
 # === INTERFACE STREAMLIT ===
 st.title("IA Bilatérales III")
-st.markdown("Donne moi ton argument contre les bilatérales III*")
+st.markdown("Donne moi ton argument contre les bilatérales III, je te dirai ce que j'en pense !")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
